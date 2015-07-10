@@ -4,6 +4,10 @@ using System.Collections;
 public class Minion : MonoBehaviour {
 	private float moveSpeed = -8;
 
+	void Awake(){
+		Random.Range(moveSpeed+3,moveSpeed-3);
+	}
+
 	void Update(){
 		moveMinion ();
 	}

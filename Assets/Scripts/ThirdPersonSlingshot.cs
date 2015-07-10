@@ -9,12 +9,18 @@ public class ThirdPersonSlingshot : MonoBehaviour {
 	public float force = 1f;
 	public float stepSize = 0.01f;
 	public int numberOfSteps = 90;
+	public float lineRenderWidth = 0.09f;
 	private int layerMask =1;
 	public LineRenderer lineRender;
 
 
 	void Update(){
-		predictPath ();
+		if (Input.GetButton ("Fire2")) {
+			predictPath ();
+		}
+		if (Input.GetButtonUp ("Fire2")) {
+			lineRender.SetVertexCount(0);
+		}
 		if (Input.GetButtonDown ("Fire1")) {
 			FireProjectile();
 		}
@@ -41,7 +47,7 @@ public class ThirdPersonSlingshot : MonoBehaviour {
 		}
 
 		lineRender.SetVertexCount(0);
-		lineRender.SetWidth (0.05f,0.05f);
+		lineRender.SetWidth (lineRenderWidth,lineRenderWidth);
 		lineRender.SetColors(Color.white, Color.white);
 		lineRender.SetVertexCount(points.Count);
 
