@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour {
 
 	public Vector3 castlePos;
 	public int life;
+	public int castleLife;
 
 	// Private internal fields
 
