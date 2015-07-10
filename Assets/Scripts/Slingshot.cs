@@ -6,7 +6,6 @@ public class Slingshot : MonoBehaviour {
 	// Inspector fields
 	public GameObject prefabProjectile;
 	public float velocityMult = 10.0f;
-	public float MoveSpeed = 3000;
 
 	// Internal fields
 	private GameObject launchPoint;
@@ -50,12 +49,6 @@ public class Slingshot : MonoBehaviour {
 
 
 	void Update() {
-		//movement
-		if (Input.GetKey (KeyCode.W)) {
-			transform.Translate(Vector3.up*MoveSpeed*Time.deltaTime);
-		}
-
-
 		// Check aiming mode
 		if(!aimingMode) return;
 
