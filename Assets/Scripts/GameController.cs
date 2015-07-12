@@ -30,6 +30,9 @@ public class GameController : MonoBehaviour {
 		updateScore ();
 		updateLive ();
 		updateHighScore ();
+		if (Time.time%5==0){
+			Debug.Log("time");
+		}
 	}
 
 	void updateScore(){

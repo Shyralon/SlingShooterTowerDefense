@@ -1,0 +1,1136 @@
+fileFormatVersion: 2
+guid: d3d3ab51db8a4f94da5580df6c17c765
+timeCreated: 1436728086
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: belt
+    100002: body
+    100004: controller_ellbow_left
+    100006: controller_ellbow_right
+    100008: controller_hip_left
+    100010: controller_hip_right
+    100012: controller_pelvis
+    100014: controller_shoulder_left
+    100016: controller_shoulder_right
+    100018: controller_stomach
+    100020: ellbow_l
+    100022: ellbow_r
+    100024: foot_l
+    100026: foot_r
+    100028: group1
+    100030: group3
+    100032: group4
+    100034: hand_l
+    100036: hand_l 1
+    100038: hand_r
+    100040: hand_r 1
+    100042: head1
+    100044: hip_r
+    100046: hip_r1
+    100048: hipplate_l
+    100050: hipplate_r
+    100052: knight02:group1
+    100054: knight02:group2
+    100056: knight02:group3
+    100058: knight02:group4
+    100060: knight02:ma:group1
+    100062: knight02:ma:pCube10
+    100064: knight02:ma:pCube11
+    100066: knight02:ma:pCube12
+    100068: knight02:ma:pCube13
+    100070: knight02:ma:pCube14
+    100072: knight02:ma:pCube15
+    100074: knight02:ma:pCube16
+    100076: knight02:ma:pSphere10
+    100078: knight02:ma:pSphere7
+    100080: knight02:ma:pSphere7 1
+    100082: knight02:ma:pSphere8
+    100084: knight02:ma:pSphere9
+    100086: knight02:ma:transform1
+    100088: knight02:ma:transform10
+    100090: knight02:ma:transform11
+    100092: knight02:ma:transform2
+    100094: knight02:ma:transform3
+    100096: knight02:ma:transform4
+    100098: knight02:ma:transform5
+    100100: knight02:ma:transform6
+    100102: knight02:ma:transform7
+    100104: knight02:ma:transform8
+    100106: knight02:ma:transform9
+    100108: knight02:pCone1
+    100110: knight02:pCone10
+    100112: knight02:pCone11
+    100114: knight02:pCone12
+    100116: knight02:pCone13
+    100118: knight02:pCone14
+    100120: knight02:pCone15
+    100122: knight02:pCone2
+    100124: knight02:pCone3
+    100126: knight02:pCone4
+    100128: knight02:pCone5
+    100130: knight02:pCone6
+    100132: knight02:pCone7
+    100134: knight02:pCone8
+    100136: knight02:pCone9
+    100138: knight02:pCube11
+    100140: knight02:pCube12
+    100142: knight02:pCube13
+    100144: knight02:pCube14
+    100146: knight02:pCube15
+    100148: knight02:pCube16
+    100150: knight02:pCube17
+    100152: knight02:pCube18
+    100154: knight02:pCube19
+    100156: knight02:pCube20
+    100158: knight02:pCube21
+    100160: knight02:pCube5
+    100162: knight02:pCube6
+    100164: knight02:pCube7
+    100166: knight02:pCube9
+    100168: knight02:pCylinder1
+    100170: knight02:pCylinder4
+    100172: knight02:pCylinder4 1
+    100174: knight02:pCylinder5
+    100176: knight02:pCylinder6
+    100178: knight02:pPipe1
+    100180: knight02:pPipe2
+    100182: knight02:pPipe3
+    100184: knight02:pPipe4
+    100186: knight02:pPipe5
+    100188: knight02:pPipe6
+    100190: knight02:pSphere10
+    100192: knight02:pSphere2
+    100194: knight02:pSphere3
+    100196: knight02:pSphere7
+    100198: knight02:pSphere8
+    100200: knight02:pSphere9
+    100202: knight02:pTorus1
+    100204: knight02:pTorus2
+    100206: knight02:transform1
+    100208: knight02:transform10
+    100210: knight02:transform11
+    100212: knight02:transform12
+    100214: knight02:transform13
+    100216: knight02:transform14
+    100218: knight02:transform15
+    100220: knight02:transform16
+    100222: knight02:transform17
+    100224: knight02:transform18
+    100226: knight02:transform19
+    100228: knight02:transform2
+    100230: knight02:transform20
+    100232: knight02:transform21
+    100234: knight02:transform22
+    100236: knight02:transform23
+    100238: knight02:transform24
+    100240: knight02:transform25
+    100242: knight02:transform26
+    100244: knight02:transform27
+    100246: knight02:transform28
+    100248: knight02:transform29
+    100250: knight02:transform3
+    100252: knight02:transform30
+    100254: knight02:transform31
+    100256: knight02:transform32
+    100258: knight02:transform33
+    100260: knight02:transform34
+    100262: knight02:transform35
+    100264: knight02:transform36
+    100266: knight02:transform37
+    100268: knight02:transform38
+    100270: knight02:transform39
+    100272: knight02:transform4
+    100274: knight02:transform40
+    100276: knight02:transform41
+    100278: knight02:transform42
+    100280: knight02:transform43
+    100282: knight02:transform44
+    100284: knight02:transform45
+    100286: knight02:transform46
+    100288: knight02:transform47
+    100290: knight02:transform48
+    100292: knight02:transform49
+    100294: knight02:transform5
+    100296: knight02:transform50
+    100298: knight02:transform51
+    100300: knight02:transform6
+    100302: knight02:transform7
+    100304: knight02:transform8
+    100306: knight02:transform9
+    100308: knight03:group3
+    100310: knight03:group4
+    100312: knight03:ma:pCube11
+    100314: knight03:ma:pCube14
+    100316: knight03:pCone10
+    100318: knight03:pCone11
+    100320: knight03:pCone12
+    100322: knight03:pCone13
+    100324: knight03:pCone14
+    100326: knight03:pCone7
+    100328: knight03:pCube13
+    100330: knight03:pCube15
+    100332: knight03:pCube16
+    100334: knight03:pCube17
+    100336: knight03:pCube18
+    100338: knight03:pCube19
+    100340: knight03:pCube20
+    100342: knight03:pCube21
+    100344: knight03:pCylinder5
+    100346: knight03:pCylinder6
+    100348: knight03:pPipe4
+    100350: knight03:pPipe5
+    100352: knight03:pSphere10
+    100354: knight03:pSphere9
+    100356: knight03:pTorus2
+    100358: knight03:transform10
+    100360: knight03:transform11
+    100362: knight03:transform12
+    100364: knight03:transform13
+    100366: knight03:transform14
+    100368: knight03:transform15
+    100370: knight03:transform16
+    100372: knight03:transform17
+    100374: knight03:transform18
+    100376: knight03:transform19
+    100378: knight03:transform20
+    100380: knight03:transform21
+    100382: knight03:transform22
+    100384: knight03:transform23
+    100386: knight03:transform25
+    100388: knight03:transform26
+    100390: knight03:transform27
+    100392: knight03:transform8
+    100394: knight03:transform9
+    100396: //RootNode
+    100398: neck
+    100400: pCone10
+    100402: pCone11
+    100404: pCone12
+    100406: pCone13
+    100408: pCone14
+    100410: pCube15
+    100412: pCube16
+    100414: pCube17
+    100416: pCube18
+    100418: pCube19
+    100420: pCube20
+    100422: pCube21
+    100424: pCylinder4
+    100426: pCylinder5
+    100428: pCylinder6
+    100430: pelvis
+    100432: plate_back
+    100434: plate_front
+    100436: pPipe4
+    100438: pPipe5
+    100440: pSphere10
+    100442: pSphere8
+    100444: pSphere9
+    100446: pTorus2
+    100448: shoulder_l
+    100450: shoulder_l 1
+    100452: shoulder_r
+    100454: shoulder_r 1
+    100456: stomach
+    100458: sword_back
+    100460: transform10
+    100462: transform11
+    100464: transform12
+    100466: transform13
+    100468: transform14
+    100470: transform15
+    100472: transform16
+    100474: transform17
+    100476: transform18
+    100478: transform19
+    100480: transform20
+    100482: transform21
+    100484: transform22
+    100486: transform23
+    100488: transform24
+    100490: transform25
+    100492: transform26
+    100494: transform27
+    100496: transform31
+    100498: transform8
+    100500: transform9
+    400000: belt
+    400002: body
+    400004: controller_ellbow_left
+    400006: controller_ellbow_right
+    400008: controller_hip_left
+    400010: controller_hip_right
+    400012: controller_pelvis
+    400014: controller_shoulder_left
+    400016: controller_shoulder_right
+    400018: controller_stomach
+    400020: ellbow_l
+    400022: ellbow_r
+    400024: foot_l
+    400026: foot_r
+    400028: group1
+    400030: group3
+    400032: group4
+    400034: hand_l
+    400036: hand_l 1
+    400038: hand_r
+    400040: hand_r 1
+    400042: head1
+    400044: hip_r
+    400046: hip_r1
+    400048: hipplate_l
+    400050: hipplate_r
+    400052: knight02:group1
+    400054: knight02:group2
+    400056: knight02:group3
+    400058: knight02:group4
+    400060: knight02:ma:group1
+    400062: knight02:ma:pCube10
+    400064: knight02:ma:pCube11
+    400066: knight02:ma:pCube12
+    400068: knight02:ma:pCube13
+    400070: knight02:ma:pCube14
+    400072: knight02:ma:pCube15
+    400074: knight02:ma:pCube16
+    400076: knight02:ma:pSphere10
+    400078: knight02:ma:pSphere7
+    400080: knight02:ma:pSphere7 1
+    400082: knight02:ma:pSphere8
+    400084: knight02:ma:pSphere9
+    400086: knight02:ma:transform1
+    400088: knight02:ma:transform10
+    400090: knight02:ma:transform11
+    400092: knight02:ma:transform2
+    400094: knight02:ma:transform3
+    400096: knight02:ma:transform4
+    400098: knight02:ma:transform5
+    400100: knight02:ma:transform6
+    400102: knight02:ma:transform7
+    400104: knight02:ma:transform8
+    400106: knight02:ma:transform9
+    400108: knight02:pCone1
+    400110: knight02:pCone10
+    400112: knight02:pCone11
+    400114: knight02:pCone12
+    400116: knight02:pCone13
+    400118: knight02:pCone14
+    400120: knight02:pCone15
+    400122: knight02:pCone2
+    400124: knight02:pCone3
+    400126: knight02:pCone4
+    400128: knight02:pCone5
+    400130: knight02:pCone6
+    400132: knight02:pCone7
+    400134: knight02:pCone8
+    400136: knight02:pCone9
+    400138: knight02:pCube11
+    400140: knight02:pCube12
+    400142: knight02:pCube13
+    400144: knight02:pCube14
+    400146: knight02:pCube15
+    400148: knight02:pCube16
+    400150: knight02:pCube17
+    400152: knight02:pCube18
+    400154: knight02:pCube19
+    400156: knight02:pCube20
+    400158: knight02:pCube21
+    400160: knight02:pCube5
+    400162: knight02:pCube6
+    400164: knight02:pCube7
+    400166: knight02:pCube9
+    400168: knight02:pCylinder1
+    400170: knight02:pCylinder4
+    400172: knight02:pCylinder4 1
+    400174: knight02:pCylinder5
+    400176: knight02:pCylinder6
+    400178: knight02:pPipe1
+    400180: knight02:pPipe2
+    400182: knight02:pPipe3
+    400184: knight02:pPipe4
+    400186: knight02:pPipe5
+    400188: knight02:pPipe6
+    400190: knight02:pSphere10
+    400192: knight02:pSphere2
+    400194: knight02:pSphere3
+    400196: knight02:pSphere7
+    400198: knight02:pSphere8
+    400200: knight02:pSphere9
+    400202: knight02:pTorus1
+    400204: knight02:pTorus2
+    400206: knight02:transform1
+    400208: knight02:transform10
+    400210: knight02:transform11
+    400212: knight02:transform12
+    400214: knight02:transform13
+    400216: knight02:transform14
+    400218: knight02:transform15
+    400220: knight02:transform16
+    400222: knight02:transform17
+    400224: knight02:transform18
+    400226: knight02:transform19
+    400228: knight02:transform2
+    400230: knight02:transform20
+    400232: knight02:transform21
+    400234: knight02:transform22
+    400236: knight02:transform23
+    400238: knight02:transform24
+    400240: knight02:transform25
+    400242: knight02:transform26
+    400244: knight02:transform27
+    400246: knight02:transform28
+    400248: knight02:transform29
+    400250: knight02:transform3
+    400252: knight02:transform30
+    400254: knight02:transform31
+    400256: knight02:transform32
+    400258: knight02:transform33
+    400260: knight02:transform34
+    400262: knight02:transform35
+    400264: knight02:transform36
+    400266: knight02:transform37
+    400268: knight02:transform38
+    400270: knight02:transform39
+    400272: knight02:transform4
+    400274: knight02:transform40
+    400276: knight02:transform41
+    400278: knight02:transform42
+    400280: knight02:transform43
+    400282: knight02:transform44
+    400284: knight02:transform45
+    400286: knight02:transform46
+    400288: knight02:transform47
+    400290: knight02:transform48
+    400292: knight02:transform49
+    400294: knight02:transform5
+    400296: knight02:transform50
+    400298: knight02:transform51
+    400300: knight02:transform6
+    400302: knight02:transform7
+    400304: knight02:transform8
+    400306: knight02:transform9
+    400308: knight03:group3
+    400310: knight03:group4
+    400312: knight03:ma:pCube11
+    400314: knight03:ma:pCube14
+    400316: knight03:pCone10
+    400318: knight03:pCone11
+    400320: knight03:pCone12
+    400322: knight03:pCone13
+    400324: knight03:pCone14
+    400326: knight03:pCone7
+    400328: knight03:pCube13
+    400330: knight03:pCube15
+    400332: knight03:pCube16
+    400334: knight03:pCube17
+    400336: knight03:pCube18
+    400338: knight03:pCube19
+    400340: knight03:pCube20
+    400342: knight03:pCube21
+    400344: knight03:pCylinder5
+    400346: knight03:pCylinder6
+    400348: knight03:pPipe4
+    400350: knight03:pPipe5
+    400352: knight03:pSphere10
+    400354: knight03:pSphere9
+    400356: knight03:pTorus2
+    400358: knight03:transform10
+    400360: knight03:transform11
+    400362: knight03:transform12
+    400364: knight03:transform13
+    400366: knight03:transform14
+    400368: knight03:transform15
+    400370: knight03:transform16
+    400372: knight03:transform17
+    400374: knight03:transform18
+    400376: knight03:transform19
+    400378: knight03:transform20
+    400380: knight03:transform21
+    400382: knight03:transform22
+    400384: knight03:transform23
+    400386: knight03:transform25
+    400388: knight03:transform26
+    400390: knight03:transform27
+    400392: knight03:transform8
+    400394: knight03:transform9
+    400396: //RootNode
+    400398: neck
+    400400: pCone10
+    400402: pCone11
+    400404: pCone12
+    400406: pCone13
+    400408: pCone14
+    400410: pCube15
+    400412: pCube16
+    400414: pCube17
+    400416: pCube18
+    400418: pCube19
+    400420: pCube20
+    400422: pCube21
+    400424: pCylinder4
+    400426: pCylinder5
+    400428: pCylinder6
+    400430: pelvis
+    400432: plate_back
+    400434: plate_front
+    400436: pPipe4
+    400438: pPipe5
+    400440: pSphere10
+    400442: pSphere8
+    400444: pSphere9
+    400446: pTorus2
+    400448: shoulder_l
+    400450: shoulder_l 1
+    400452: shoulder_r
+    400454: shoulder_r 1
+    400456: stomach
+    400458: sword_back
+    400460: transform10
+    400462: transform11
+    400464: transform12
+    400466: transform13
+    400468: transform14
+    400470: transform15
+    400472: transform16
+    400474: transform17
+    400476: transform18
+    400478: transform19
+    400480: transform20
+    400482: transform21
+    400484: transform22
+    400486: transform23
+    400488: transform24
+    400490: transform25
+    400492: transform26
+    400494: transform27
+    400496: transform31
+    400498: transform8
+    400500: transform9
+    2300000: belt
+    2300002: hand_l 1
+    2300004: hand_r 1
+    2300006: head1
+    2300008: hipplate_l
+    2300010: hipplate_r
+    2300012: plate_back
+    2300014: plate_front
+    2300016: shoulder_l 1
+    2300018: shoulder_r 1
+    2300020: sword_back
+    3300000: belt
+    3300002: hand_l 1
+    3300004: hand_r 1
+    3300006: head1
+    3300008: hipplate_l
+    3300010: hipplate_r
+    3300012: plate_back
+    3300014: plate_front
+    3300016: shoulder_l 1
+    3300018: shoulder_r 1
+    3300020: sword_back
+    4300000: body
+    4300002: hipplate_r
+    4300004: hipplate_l
+    4300006: belt
+    4300008: head1
+    4300010: plate_back
+    4300012: sword_back
+    4300014: plate_front
+    4300016: shoulder_l
+    4300018: hand_l
+    4300020: shoulder_r
+    4300022: hand_r
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: controller_pelvis
+        weight: 1
+      - path: controller_pelvis/controller_hip_left
+        weight: 1
+      - path: controller_pelvis/controller_hip_left/hip_r1
+        weight: 1
+      - path: controller_pelvis/controller_hip_left/hip_r1/foot_l
+        weight: 1
+      - path: controller_pelvis/controller_hip_right
+        weight: 1
+      - path: controller_pelvis/controller_hip_right/hip_r
+        weight: 1
+      - path: controller_pelvis/controller_hip_right/hip_r/foot_r
+        weight: 1
+      - path: controller_pelvis/controller_stomach
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_left
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_left/controller_ellbow_left
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_left/controller_ellbow_left/ellbow_l
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_left/controller_ellbow_left/ellbow_l/hand_l
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_left/controller_ellbow_left/ellbow_l/hand_l/hand_l
+          1
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_left/shoulder_l
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_left/shoulder_l/shoulder_l
+          1
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_right
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_right/controller_ellbow_right
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_right/controller_ellbow_right/ellbow_r
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_right/controller_ellbow_right/ellbow_r/hand_r
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_right/controller_ellbow_right/ellbow_r/hand_r/hand_r
+          1
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_right/shoulder_r
+        weight: 1
+      - path: controller_pelvis/controller_stomach/controller_shoulder_right/shoulder_r/shoulder_r
+          1
+        weight: 1
+      - path: controller_pelvis/controller_stomach/transform31
+        weight: 1
+      - path: controller_pelvis/controller_stomach/transform31/stomach
+        weight: 1
+      - path: controller_pelvis/controller_stomach/transform31/stomach/neck
+        weight: 1
+      - path: controller_pelvis/controller_stomach/transform31/stomach/neck/head1
+        weight: 1
+      - path: controller_pelvis/controller_stomach/transform31/stomach/neck/plate_back
+        weight: 1
+      - path: controller_pelvis/controller_stomach/transform31/stomach/neck/plate_back/sword_back
+        weight: 1
+      - path: controller_pelvis/controller_stomach/transform31/stomach/plate_front
+        weight: 1
+      - path: controller_pelvis/pelvis
+        weight: 1
+      - path: controller_pelvis/pelvis/belt
+        weight: 1
+      - path: controller_pelvis/pelvis/hipplate_l
+        weight: 1
+      - path: controller_pelvis/pelvis/hipplate_r
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pSphere8
+        weight: 1
+      - path: group1/pSphere8/transform24
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/group4
+        weight: 1
+      - path: group3/group4/pCube18
+        weight: 1
+      - path: group3/group4/pCube18/transform17
+        weight: 1
+      - path: group3/group4/pCylinder6
+        weight: 1
+      - path: group3/group4/pCylinder6/transform16
+        weight: 1
+      - path: knight02:group1
+        weight: 1
+      - path: knight02:group1/knight02:group2
+        weight: 1
+      - path: knight02:group1/knight02:pSphere3
+        weight: 1
+      - path: knight02:group1/knight02:pSphere3/knight02:transform40
+        weight: 1
+      - path: knight02:group1/knight02:pSphere8
+        weight: 1
+      - path: knight02:group1/knight02:pSphere8/knight02:transform24
+        weight: 1
+      - path: knight02:group3
+        weight: 1
+      - path: knight02:group3/knight02:group4
+        weight: 1
+      - path: knight02:group3/knight02:group4/knight02:pCube9
+        weight: 1
+      - path: knight02:group3/knight02:group4/knight02:pCube9/knight02:transform47
+        weight: 1
+      - path: knight02:group3/knight02:group4/knight02:pCube18
+        weight: 1
+      - path: knight02:group3/knight02:group4/knight02:pCube18/knight02:transform17
+        weight: 1
+      - path: knight02:group3/knight02:group4/knight02:pCylinder4 1
+        weight: 1
+      - path: knight02:group3/knight02:group4/knight02:pCylinder4 1/knight02:transform48
+        weight: 1
+      - path: knight02:group3/knight02:group4/knight02:pCylinder6
+        weight: 1
+      - path: knight02:group3/knight02:group4/knight02:pCylinder6/knight02:transform16
+        weight: 1
+      - path: knight02:ma:group1
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pCube16
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pCube16/knight02:ma:transform7
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pSphere7 1
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pSphere7 1/knight02:ma:transform11
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pSphere8
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pSphere8/knight02:ma:transform10
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pSphere9
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pSphere9/knight02:ma:transform9
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pSphere10
+        weight: 1
+      - path: knight02:ma:group1/knight02:ma:pSphere10/knight02:ma:transform8
+        weight: 1
+      - path: knight02:ma:pCube10
+        weight: 1
+      - path: knight02:ma:pCube10/knight02:ma:transform6
+        weight: 1
+      - path: knight02:ma:pCube11
+        weight: 1
+      - path: knight02:ma:pCube11/knight02:ma:transform5
+        weight: 1
+      - path: knight02:ma:pCube12
+        weight: 1
+      - path: knight02:ma:pCube12/knight02:ma:transform4
+        weight: 1
+      - path: knight02:ma:pCube13
+        weight: 1
+      - path: knight02:ma:pCube13/knight02:ma:transform3
+        weight: 1
+      - path: knight02:ma:pCube14
+        weight: 1
+      - path: knight02:ma:pCube14/knight02:ma:transform2
+        weight: 1
+      - path: knight02:ma:pCube15
+        weight: 1
+      - path: knight02:ma:pCube15/knight02:ma:transform1
+        weight: 1
+      - path: knight02:ma:pSphere7
+        weight: 1
+      - path: knight02:ma:pSphere7/knight02:transform34
+        weight: 1
+      - path: knight02:pCone1
+        weight: 1
+      - path: knight02:pCone1/knight02:transform42
+        weight: 1
+      - path: knight02:pCone2
+        weight: 1
+      - path: knight02:pCone2/knight02:transform32
+        weight: 1
+      - path: knight02:pCone3
+        weight: 1
+      - path: knight02:pCone3/knight02:transform46
+        weight: 1
+      - path: knight02:pCone4
+        weight: 1
+      - path: knight02:pCone4/knight02:transform31
+        weight: 1
+      - path: knight02:pCone5
+        weight: 1
+      - path: knight02:pCone5/knight02:transform4
+        weight: 1
+      - path: knight02:pCone6
+        weight: 1
+      - path: knight02:pCone6/knight02:transform2
+        weight: 1
+      - path: knight02:pCone7
+        weight: 1
+      - path: knight02:pCone7/knight02:transform1
+        weight: 1
+      - path: knight02:pCone8
+        weight: 1
+      - path: knight02:pCone8/knight02:transform7
+        weight: 1
+      - path: knight02:pCone9
+        weight: 1
+      - path: knight02:pCone9/knight02:transform28
+        weight: 1
+      - path: knight02:pCone10
+        weight: 1
+      - path: knight02:pCone10/knight02:transform26
+        weight: 1
+      - path: knight02:pCone11
+        weight: 1
+      - path: knight02:pCone11/knight02:transform14
+        weight: 1
+      - path: knight02:pCone12
+        weight: 1
+      - path: knight02:pCone12/knight02:transform13
+        weight: 1
+      - path: knight02:pCone13
+        weight: 1
+      - path: knight02:pCone13/knight02:transform12
+        weight: 1
+      - path: knight02:pCone14
+        weight: 1
+      - path: knight02:pCone14/knight02:transform9
+        weight: 1
+      - path: knight02:pCone15
+        weight: 1
+      - path: knight02:pCone15/knight02:transform51
+        weight: 1
+      - path: knight02:pCube5
+        weight: 1
+      - path: knight02:pCube5/knight02:transform37
+        weight: 1
+      - path: knight02:pCube6
+        weight: 1
+      - path: knight02:pCube6/knight02:transform36
+        weight: 1
+      - path: knight02:pCube7
+        weight: 1
+      - path: knight02:pCube7/knight02:transform35
+        weight: 1
+      - path: knight02:pCube11
+        weight: 1
+      - path: knight02:pCube11/knight02:transform33
+        weight: 1
+      - path: knight02:pCube12
+        weight: 1
+      - path: knight02:pCube12/knight02:transform29
+        weight: 1
+      - path: knight02:pCube13
+        weight: 1
+      - path: knight02:pCube13/knight02:transform6
+        weight: 1
+      - path: knight02:pCube14
+        weight: 1
+      - path: knight02:pCube14/knight02:transform45
+        weight: 1
+      - path: knight02:pCube15
+        weight: 1
+      - path: knight02:pCube15/knight02:transform21
+        weight: 1
+      - path: knight02:pCube16
+        weight: 1
+      - path: knight02:pCube16/knight02:transform20
+        weight: 1
+      - path: knight02:pCube17
+        weight: 1
+      - path: knight02:pCube17/knight02:transform19
+        weight: 1
+      - path: knight02:pCube19
+        weight: 1
+      - path: knight02:pCube19/knight02:transform15
+        weight: 1
+      - path: knight02:pCube20
+        weight: 1
+      - path: knight02:pCube20/knight02:transform10
+        weight: 1
+      - path: knight02:pCube21
+        weight: 1
+      - path: knight02:pCube21/knight02:transform8
+        weight: 1
+      - path: knight02:pCylinder1
+        weight: 1
+      - path: knight02:pCylinder1/knight02:transform41
+        weight: 1
+      - path: knight02:pCylinder4
+        weight: 1
+      - path: knight02:pCylinder4/knight02:transform50
+        weight: 1
+      - path: knight02:pCylinder5
+        weight: 1
+      - path: knight02:pCylinder5/knight02:transform25
+        weight: 1
+      - path: knight02:pPipe1
+        weight: 1
+      - path: knight02:pPipe1/knight02:transform43
+        weight: 1
+      - path: knight02:pPipe2
+        weight: 1
+      - path: knight02:pPipe2/knight02:transform5
+        weight: 1
+      - path: knight02:pPipe3
+        weight: 1
+      - path: knight02:pPipe3/knight02:transform30
+        weight: 1
+      - path: knight02:pPipe4
+        weight: 1
+      - path: knight02:pPipe4/knight02:transform27
+        weight: 1
+      - path: knight02:pPipe5
+        weight: 1
+      - path: knight02:pPipe5/knight02:transform11
+        weight: 1
+      - path: knight02:pPipe6
+        weight: 1
+      - path: knight02:pPipe6/knight02:transform44
+        weight: 1
+      - path: knight02:pSphere2
+        weight: 1
+      - path: knight02:pSphere2/knight02:transform39
+        weight: 1
+      - path: knight02:pSphere7
+        weight: 1
+      - path: knight02:pSphere7/knight02:transform3
+        weight: 1
+      - path: knight02:pSphere9
+        weight: 1
+      - path: knight02:pSphere9/knight02:transform23
+        weight: 1
+      - path: knight02:pSphere10
+        weight: 1
+      - path: knight02:pSphere10/knight02:transform18
+        weight: 1
+      - path: knight02:pTorus1
+        weight: 1
+      - path: knight02:pTorus1/knight02:transform38
+        weight: 1
+      - path: knight02:pTorus2
+        weight: 1
+      - path: knight02:pTorus2/knight02:transform22
+        weight: 1
+      - path: knight03:group3
+        weight: 1
+      - path: knight03:group3/knight03:group4
+        weight: 1
+      - path: knight03:group3/knight03:group4/knight03:pCube18
+        weight: 1
+      - path: knight03:group3/knight03:group4/knight03:pCube18/knight03:transform17
+        weight: 1
+      - path: knight03:group3/knight03:group4/knight03:pCylinder6
+        weight: 1
+      - path: knight03:group3/knight03:group4/knight03:pCylinder6/knight03:transform16
+        weight: 1
+      - path: knight03:ma:pCube11
+        weight: 1
+      - path: knight03:ma:pCube14
+        weight: 1
+      - path: knight03:pCone7
+        weight: 1
+      - path: knight03:pCone10
+        weight: 1
+      - path: knight03:pCone10/knight03:transform26
+        weight: 1
+      - path: knight03:pCone11
+        weight: 1
+      - path: knight03:pCone11/knight03:transform14
+        weight: 1
+      - path: knight03:pCone12
+        weight: 1
+      - path: knight03:pCone12/knight03:transform13
+        weight: 1
+      - path: knight03:pCone13
+        weight: 1
+      - path: knight03:pCone13/knight03:transform12
+        weight: 1
+      - path: knight03:pCone14
+        weight: 1
+      - path: knight03:pCone14/knight03:transform9
+        weight: 1
+      - path: knight03:pCube13
+        weight: 1
+      - path: knight03:pCube15
+        weight: 1
+      - path: knight03:pCube15/knight03:transform21
+        weight: 1
+      - path: knight03:pCube16
+        weight: 1
+      - path: knight03:pCube16/knight03:transform20
+        weight: 1
+      - path: knight03:pCube17
+        weight: 1
+      - path: knight03:pCube17/knight03:transform19
+        weight: 1
+      - path: knight03:pCube19
+        weight: 1
+      - path: knight03:pCube19/knight03:transform15
+        weight: 1
+      - path: knight03:pCube20
+        weight: 1
+      - path: knight03:pCube20/knight03:transform10
+        weight: 1
+      - path: knight03:pCube21
+        weight: 1
+      - path: knight03:pCube21/knight03:transform8
+        weight: 1
+      - path: knight03:pCylinder5
+        weight: 1
+      - path: knight03:pCylinder5/knight03:transform25
+        weight: 1
+      - path: knight03:pPipe4
+        weight: 1
+      - path: knight03:pPipe4/knight03:transform27
+        weight: 1
+      - path: knight03:pPipe5
+        weight: 1
+      - path: knight03:pPipe5/knight03:transform11
+        weight: 1
+      - path: knight03:pSphere9
+        weight: 1
+      - path: knight03:pSphere9/knight03:transform23
+        weight: 1
+      - path: knight03:pSphere10
+        weight: 1
+      - path: knight03:pSphere10/knight03:transform18
+        weight: 1
+      - path: knight03:pTorus2
+        weight: 1
+      - path: knight03:pTorus2/knight03:transform22
+        weight: 1
+      - path: pCone10
+        weight: 1
+      - path: pCone10/transform26
+        weight: 1
+      - path: pCone11
+        weight: 1
+      - path: pCone11/transform14
+        weight: 1
+      - path: pCone12
+        weight: 1
+      - path: pCone12/transform13
+        weight: 1
+      - path: pCone13
+        weight: 1
+      - path: pCone13/transform12
+        weight: 1
+      - path: pCone14
+        weight: 1
+      - path: pCone14/transform9
+        weight: 1
+      - path: pCube15
+        weight: 1
+      - path: pCube15/transform21
+        weight: 1
+      - path: pCube16
+        weight: 1
+      - path: pCube16/transform20
+        weight: 1
+      - path: pCube17
+        weight: 1
+      - path: pCube17/transform19
+        weight: 1
+      - path: pCube19
+        weight: 1
+      - path: pCube19/transform15
+        weight: 1
+      - path: pCube20
+        weight: 1
+      - path: pCube20/transform10
+        weight: 1
+      - path: pCube21
+        weight: 1
+      - path: pCube21/transform8
+        weight: 1
+      - path: pCylinder4
+        weight: 1
+      - path: pCylinder4/knight02:transform49
+        weight: 1
+      - path: pCylinder5
+        weight: 1
+      - path: pCylinder5/transform25
+        weight: 1
+      - path: pPipe4
+        weight: 1
+      - path: pPipe4/transform27
+        weight: 1
+      - path: pPipe5
+        weight: 1
+      - path: pPipe5/transform11
+        weight: 1
+      - path: pSphere9
+        weight: 1
+      - path: pSphere9/transform23
+        weight: 1
+      - path: pSphere10
+        weight: 1
+      - path: pSphere10/transform18
+        weight: 1
+      - path: pTorus2
+        weight: 1
+      - path: pTorus2/transform22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 130
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

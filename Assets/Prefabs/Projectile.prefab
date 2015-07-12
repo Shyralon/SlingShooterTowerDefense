@@ -12,6 +12,7 @@ GameObject:
   - 135: {fileID: 13554466}
   - 23: {fileID: 2320394}
   - 54: {fileID: 5424398}
+  - 114: {fileID: 11495316}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Projectile
@@ -77,6 +78,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!114 &11495316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56fe2e60ab42f44fa25d69f5099bdaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 197552, guid: e8d9b4e3713a84e43a6f5ef630d3b7a1, type: 2}
+  particleDuration: 1.60000002
 --- !u!135 &13554466
 SphereCollider:
   m_ObjectHideFlags: 1
