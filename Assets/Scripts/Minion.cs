@@ -3,9 +3,13 @@ using System.Collections;
 
 public class Minion : MonoBehaviour {
 	private float moveSpeed = -8;
+	private GameObject GamecontrollerReference;
+	private int scoreValue = 10;
 
 	void Awake(){
 		Random.Range(moveSpeed+3,moveSpeed-3);
+		GamecontrollerReference = GameObject.FindGameObjectWithTag ("GameController");
+
 	}
 
 	void Update(){
@@ -22,6 +26,8 @@ public class Minion : MonoBehaviour {
 		if (objectHit.tag == "Projectile") {
 			Destroy (objectHit);
 			Destroy (gameObject);
+			GamecontrollerReference.GetComponent<GameController>().score = GamecontrollerReference.GetComponent<GameController>().score+scoreValue;
+
 		}
 
 	}
