@@ -7,6 +7,7 @@ public class MinionSpawner : MonoBehaviour {
 	//inspector fields
 	public GameObject MinionPrefab;
 	public float minionCooldown;
+	public float difficultyTime;
 
 	//internal fields
 	private GameObject spawnpoint;
@@ -21,10 +22,17 @@ public class MinionSpawner : MonoBehaviour {
 
 	void Start () {
 		InvokeRepeating ("spawnMinion", 0, minionCooldown);
+		InvokeRepeating("ReduceMinionCooldown", 0, 10);
 	}
 
 	void spawnMinion(){
 		GameObject tmpObject = Instantiate (MinionPrefab) as GameObject;
 		tmpObject.transform.position = spawnposition;
 }
+
+	void ReduceMinionCooldown(){
+		if (minionCooldown>1){
+			minionCooldown--;
+		}
+	}
 }

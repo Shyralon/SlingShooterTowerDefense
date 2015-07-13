@@ -3299,9 +3299,12 @@ GameObject:
   - 4: {fileID: 489554}
   - 95: {fileID: 9572346}
   - 114: {fileID: 11496066}
+  - 111: {fileID: 11189090}
+  - 136: {fileID: 13699868}
+  - 54: {fileID: 5424776}
   m_Layer: 0
   m_Name: KnightFINALanimatedDELETEDHISTORY
-  m_TagString: Untagged
+  m_TagString: minion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7393,6 +7396,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 118892}
   m_Mesh: {fileID: 4300012, guid: d3d3ab51db8a4f94da5580df6c17c765, type: 3}
+--- !u!54 &5424776
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189708}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!95 &9572346
 Animator:
   serializedVersion: 3
@@ -7410,6 +7428,21 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &11189090
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189708}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: d3d3ab51db8a4f94da5580df6c17c765, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: d3d3ab51db8a4f94da5580df6c17c765, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &11496066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7421,6 +7454,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4cf5c4f348c04648847b259238b2213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &13699868
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.29999995
+  m_Height: 7
+  m_Direction: 1
+  m_Center: {x: 0, y: 3.29999995, z: 0}
 --- !u!137 &13795602
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

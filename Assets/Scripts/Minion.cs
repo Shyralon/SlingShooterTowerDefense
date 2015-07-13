@@ -7,7 +7,7 @@ public class Minion : MonoBehaviour {
 	private int scoreValue = 10;
 
 	void Awake(){
-		Random.Range(moveSpeed+3,moveSpeed-3);
+	//	moveSpeed=Random.Range(moveSpeed+2,moveSpeed-2);
 		GamecontrollerReference = GameObject.FindGameObjectWithTag ("GameController");
 
 	}
@@ -17,7 +17,7 @@ public class Minion : MonoBehaviour {
 	}
 
 	void moveMinion(){
-		transform.Translate (Time.deltaTime * moveSpeed,0,0);
+		transform.Translate (0,0,Time.deltaTime * moveSpeed*-1);
 	}
 
 	void OnCollisionEnter(Collision collision){
