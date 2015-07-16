@@ -7409,7 +7409,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!95 &9572346
 Animator:
@@ -7454,6 +7454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4cf5c4f348c04648847b259238b2213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: -8
 --- !u!136 &13699868
 CapsuleCollider:
   m_ObjectHideFlags: 1

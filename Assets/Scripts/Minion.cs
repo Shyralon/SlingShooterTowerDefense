@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Minion : MonoBehaviour {
-	private float moveSpeed = -8;
+	public float moveSpeed = -8;
 	private GameObject GamecontrollerReference;
 	private int scoreValue = 10;
 

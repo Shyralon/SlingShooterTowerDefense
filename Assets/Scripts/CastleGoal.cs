@@ -12,8 +12,9 @@ public class CastleGoal : MonoBehaviour {
 			Debug.Log(GameControllerReference.GetComponent<GameController>().castleLife);
 		}
 		if (GameControllerReference.GetComponent<GameController> ().castleLife == 0) {
+			PlayerPrefs.SetInt("HighScore", GameController.highScore);
 			GameControllerReference.GetComponent<GameController>().score=0;
-			Application.LoadLevel(0);
+			Application.LoadLevel(1);
 		}
 	}
 }

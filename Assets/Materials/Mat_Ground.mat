@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Mat_Ground
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 054a31a99d11e49d110086ba44295342, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -149,7 +149,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .595588207, g: .34297663, b: .148897052, a: 1}
+        second: {r: .266391248, g: .389705896, b: .21777682, a: 1}
       data:
         first:
           name: _EmissionColorUI
