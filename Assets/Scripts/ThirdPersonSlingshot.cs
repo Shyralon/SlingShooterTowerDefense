@@ -11,7 +11,11 @@ public class ThirdPersonSlingshot : MonoBehaviour {
 	public int numberOfSteps = 90;
 	public float lineRenderWidth = 0.09f;
 	private int layerMask =1;
+	public AudioSource FireSound;
+	public AudioClip initialSound;
 	public LineRenderer lineRender;
+	public GameObject smoke;
+	public Transform smokePoint;
 
 
 	void Update(){
@@ -27,8 +31,12 @@ public class ThirdPersonSlingshot : MonoBehaviour {
 	}
 
 	void FireProjectile(){
+		FireSound.clip = initialSound;
 		GameObject tmpProjectile = Instantiate (projectile, launchPoint.position, Quaternion.Euler (launchPoint.transform.right)) as GameObject;
 		tmpProjectile.GetComponent<Rigidbody> ().velocity += launchPoint.right * force;
+		Instantiate (smoke, smokePoint.position, Quaternion.identity);
+		FireSound.Play ();
+		
 	}
 
 	void predictPath(){

@@ -16,6 +16,7 @@ public class CloudCrafter : MonoBehaviour {
 
 	public float cloudScaleMin = 1.0f;
 	public float cloudScaleMax = 5.0f;
+	public float cDistance;
 
 
 	// Internal fields
@@ -41,15 +42,16 @@ public class CloudCrafter : MonoBehaviour {
 			cloud = Instantiate(cloudPrefabs[prefabNum]);
 
 			Vector3 cPos = Vector3.zero;
-			cPos.x = Random.Range(cloudPosMin.x, cloudPosMax.x);
+			cPos.x = cDistance;
 			cPos.y = Random.Range(cloudPosMin.y, cloudPosMax.y);
+			cPos.z = Random.Range(cloudPosMin.z, cloudPosMax.z);
 
 			float scaleU = Random.value;
 			float scaleVal = Mathf.Lerp(cloudScaleMin,cloudScaleMax,scaleU);
 
-			cPos.y = Mathf.Lerp(cloudPosMin.y, cPos.y, scaleU);
+			cPos.z = Mathf.Lerp(cloudPosMin.z, cPos.z, scaleU);
 
-			cPos.z = 100 - 90*scaleU;
+			cPos.y = 100 - 90*scaleU;
 
 
 
@@ -80,10 +82,10 @@ public class CloudCrafter : MonoBehaviour {
 
 			// Move larger clouds faster
 
-			cPos.x -= Time.deltaTime * cloudSpeedMult * scaleVal;
+			cPos.z -= Time.deltaTime * cloudSpeedMult * scaleVal;
 
-			if(cPos.x < cloudPosMin.x){
-				cPos.x = cloudPosMax.x;
+			if(cPos.z < cloudPosMin.z){
+				cPos.z = cloudPosMax.z;
 			}
 
 			cloud.transform.position = cPos;
